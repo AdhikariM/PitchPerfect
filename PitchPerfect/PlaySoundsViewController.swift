@@ -29,7 +29,6 @@ class PlaySoundsViewController: UIViewController {
         }
     
     @IBAction func playSound(_ sender: UIButton){
-           print("play sound button pressed")
            switch(ButtonType(rawValue: sender.tag)!) {
            case .slow:
                playSound(rate: 0.5)
